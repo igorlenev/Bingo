@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,6 +29,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@drawable/layout_grid_border"
                 android:id="@+id/row1Constraint"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -38,6 +40,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/oneOne"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -48,9 +51,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/oneOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +64,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/oneTwo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -68,9 +75,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/oneTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -79,6 +89,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/oneThree"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -89,9 +100,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/oneThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -99,6 +113,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/oneFour"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -109,9 +124,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/oneFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -120,6 +138,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/oneFive"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -130,9 +149,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/oneFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -141,6 +163,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@drawable/layout_grid_border"
                 android:id="@+id/row2Constraint"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -151,6 +174,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/row1Constraint">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/twoOne"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -161,9 +185,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/twoOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -172,6 +199,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/twoTwo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -182,9 +210,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/twoTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -192,6 +223,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/twoThree"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -202,9 +234,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/twoThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -213,6 +248,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/twoFour"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -223,9 +259,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/twoFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -233,6 +272,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/twoFive"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -243,9 +283,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/twoFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -255,6 +298,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@drawable/layout_grid_border"
                 android:id="@+id/row3Constraint"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -265,6 +309,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/row2Constraint">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/threeOne"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -275,9 +320,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/threeOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -286,6 +334,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/threeTwo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -296,9 +345,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/threeTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -306,6 +358,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/threeThree"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -316,9 +369,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/threeThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -326,6 +382,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/threeFour"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -336,9 +393,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/threeFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -346,6 +406,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/threeFive"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -356,9 +417,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/threeFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -368,6 +432,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@drawable/layout_grid_border"
                 android:id="@+id/row4Constraint"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -378,6 +443,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/row3Constraint">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fourOne"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -388,9 +454,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fourOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -398,6 +467,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fourTwo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -408,9 +478,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fourTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -419,6 +492,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fourThree"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -429,9 +503,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fourThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -439,6 +516,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fourFour"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -449,9 +527,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fourFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -460,6 +541,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fourFive"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -470,9 +552,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fourFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -481,6 +566,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:background="@drawable/layout_grid_border"
                 android:id="@+id/row5Constraint"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -491,6 +577,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/row4Constraint">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fiveOne"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -501,9 +588,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fiveOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -511,6 +601,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fiveTwo"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -521,9 +612,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fiveTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -531,6 +625,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fiveThree"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -541,9 +636,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fiveThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         android:text="@string/heart"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -552,6 +650,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fiveFour"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -562,9 +661,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fiveFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -572,6 +674,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:background="@drawable/layout_grid_border"
                     android:id="@+id/fiveFive"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -582,9 +685,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
+                        android:padding="8dp"
                         android:id="@+id/fiveFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="10sp"
+                        android:textAlignment="center"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
