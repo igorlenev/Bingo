@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class HisGeneration {
     private TextView[] hisTextView;
-    private String[] task = new String[20];
+    private String[] task = new String[21];
     private boolean[] isUsed = new boolean[task.length];
     private int temporary;
     private Random random = new Random();
@@ -24,7 +24,7 @@ public class HisGeneration {
         task[7] = "Смена комплекта постельного белья";
         task[8] = "Брал дополнительные задания в школе";
         task[9] = "Меньше стал хрустеть суставами";
-        task[10] = "Без затяжек";
+        task[10] = "Одна пачка на неделю";
         task[11] = "\"Само в себе\"";
         task[12] = "Без вины";
         task[13] = "Без тремора";
@@ -34,6 +34,7 @@ public class HisGeneration {
         task[17] = "Продолжительность";
         task[18] = "Уменьшение лишних трат";
         task[19] = "Без траты времени впустую";
+        task[20] = "Хотя бы одна прогулка";
     }
 
     public void generate(){

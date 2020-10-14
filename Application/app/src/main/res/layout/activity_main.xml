@@ -20,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@drawable/layout_table_border"
             android:id="@+id/tableConstraint"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -75,13 +76,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/oneTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -124,13 +124,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/oneFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -185,13 +184,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/twoOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -234,13 +232,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/twoThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -283,13 +280,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/twoFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -320,13 +316,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/threeOneText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -417,13 +412,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/threeFiveText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -478,13 +472,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/fourTwoText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -527,13 +520,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/fourFourText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -636,13 +628,12 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <TextView
-                        android:padding="8dp"
                         android:id="@+id/fiveThreeText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="10sp"
+                        android:padding="8dp"
                         android:textAlignment="center"
-                        android:text="@string/heart"
+                        android:textSize="10sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -718,6 +709,17 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/forHimButton"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="v.1.o.2      14/10/2020"
+                android:textColor="@android:color/tertiary_text_light"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/forHimButton"
+                app:layout_constraintStart_toEndOf="@id/forHerButton"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
