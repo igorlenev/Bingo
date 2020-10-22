@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Bingo</string>
     <string name="for_her">Саня</string>
-    <string name="for_him">Дракоша</string>
-    <string name="heart">♥</string>
+    <string name="for_him">Игорь</string>
+    <string name="heart">☭</string>
+    <string name="version">"v.1.0.3      22/10/2020</string>
 </resources>
